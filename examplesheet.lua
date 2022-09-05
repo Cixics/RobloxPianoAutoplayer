@@ -1,4 +1,4 @@
--- MS
+-- MS3
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
