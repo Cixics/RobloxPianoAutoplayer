@@ -6,7 +6,8 @@ shared.ftime = 9*60 + 25 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
-shared.scr = [[! [%*] 0 [*W] 0 W [!T] [WT] u W u [!O] T [%O] [!S] [%O] S f [%S] f [SH] [SH] % 8 ( W [%(] [1t] ( t Y W [%Y]
+shared.scr = [[
+! [%*] 0 [*W] 0 W [!T] [WT] u W u [!O] T [%O] [!S] [%O] S f [%S] f [SH] [SH] % 8 ( W [%(] [1t] ( t Y W [%Y]
 O [%Y] O [1s] [%O] s [OD] s [DH] [DH] * q [WT] q [%W] i W i O i O S [%O] S g [%S] H S g [HL] [HL] * Q T T
 [6p] S [SG] j [GL] [GL] [60] w T [6u] S S [6f] [SL] [SL] [sl] [WO] H [OH] [TP] [YH] H S [DH] H s [DH] H S H
 [GH] f H [ID] [SH] H s [TH] h [WO] [OH] H O H [PH] s [SH] H [ID] [YH] H [ID] H [SH] G H f [DH] [SH] [YH]
@@ -86,4 +87,5 @@ f S O u [OS] u T O T u T W T W 0 W * % 6 7 8 9 ( [0q] Q w e E [rt] T Y [ui] I O 
 t [%(] ( [QO] ( % ( [QO] ( % ( [QO] ( % 0 [TO] * % * ! [%*] * ! * % * f * % [*S] s ( % ( [IH] ( % ( [IH] ( % ( [IH] ( % [(S]
 [*H] % * ! * % s [!H] ( % ( ! ( % [(S] [!H] * % * ! * % s [(H] % ( ! ( % [(S] [*H] [WO] [TS] [uf] [WO] [uf] [OH] [TS] [OH] [SL]
 [uf] [HL] [fx] [SL] [OH] [SL] [OH] [TS] [OH] [TS] [WO] [uf] [WO] [TS] [WO] [0u] [WO] [0u] [*T] [%W] [0u] [%W] [30]
-[*T] [%W] [30] [%W] [!*] [HL] [OS]]]
+[*T] [%W] [30] [%W] [!*] [HL] [OS]
+]]
